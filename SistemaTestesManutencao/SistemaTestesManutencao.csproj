@@ -65,21 +65,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="documentos\documentação\empty.txt" />
+    <Content Include="documentos\gestão-de-configuração\empty.txt" />
+    <Content Include="documentos\testes\empty.txt" />
+    <Content Include="produto\código\images\empty.txt" />
+    <Content Include="produto\código\include\empty.txt" />
+    <Content Include="produto\código\scripts\empty.txt" />
+    <Content Include="produto\código\style\empty.txt" />
+    <Content Include="produto\scripts\empty.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="documentos\documentação\" />
-    <Folder Include="documentos\gestão-de-configuração\" />
-    <Folder Include="documentos\testes\" />
-    <Folder Include="produto\código\images\" />
-    <Folder Include="produto\código\include\" />
-    <Folder Include="produto\código\scripts\" />
-    <Folder Include="produto\código\style\" />
-    <Folder Include="produto\scripts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
