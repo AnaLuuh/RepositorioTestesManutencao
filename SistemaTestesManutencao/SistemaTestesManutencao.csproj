@@ -65,13 +65,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="documentos\documentação\empty.txt" />
-    <Content Include="documentos\gestão-de-configuração\empty.txt" />
+    <Content Include="documentos\documentacao\empty.txt" />
+    <Content Include="documentos\gestao-de-configuracao\empty.txt" />
     <Content Include="documentos\testes\empty.txt" />
-    <Content Include="produto\código\images\empty.txt" />
-    <Content Include="produto\código\include\empty.txt" />
-    <Content Include="produto\código\scripts\empty.txt" />
-    <Content Include="produto\código\style\empty.txt" />
+    <Content Include="produto\codigo\images\empty.txt" />
+    <Content Include="produto\codigo\include\empty.txt" />
+    <Content Include="produto\codigo\scripts\empty.txt" />
+    <Content Include="produto\codigo\style\empty.txt" />
     <Content Include="produto\scripts\empty.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
