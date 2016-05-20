@@ -26,7 +26,7 @@
                             <asp:LinkButton runat="server" ID="lnkEventos" OnClick="lnkEventos_Click" CssClass="LinkMenu" Text="Eventos"></asp:LinkButton>
                         </li>
                         <li id="liLogin" runat="server">
-                            <asp:Image runat="server" ID="imgLogin" ImageUrl="~/Imagens/login.png" Height="25px" />
+                            <asp:Image runat="server" ID="imgLogin" ImageUrl="~/images/login.png" Height="25px" />
                             <asp:LinkButton runat="server" ID="lnkLogin" OnClick="lnkLogin_Click" Text="Login" CssClass="LinkMenu"></asp:LinkButton>
                         </li>
                         <li id="liSair" runat="server">
