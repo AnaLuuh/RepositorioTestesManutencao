@@ -55,11 +55,19 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Util, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>produto\codigo\_Geral\Util.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="produto\codigo\scripts\jquery-1.11.1.min.js" />
     <Content Include="produto\codigo\_Geral\UserControls\cssErro.css.map" />
     <Content Include="produto\codigo\_Geral\UserControls\cssErro.scss" />
     <Content Include="produto\codigo\_Master\Site.Master" />
+    <Content Include="produto\codigo\style\_mixins.scss" />
+    <Content Include="produto\codigo\style\_styles.scss" />
+    <Content Include="produto\codigo\style\_variaveis.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -73,13 +81,10 @@
     <Content Include="documentos\testes\empty.txt" />
     <Content Include="produto\codigo\images\empty.txt" />
     <Content Include="produto\codigo\include\empty.txt" />
-    <Content Include="produto\codigo\scripts\empty.txt" />
-    <Content Include="produto\codigo\style\empty.txt" />
     <Content Include="produto\codigo\_Geral\UserControls\cssErro.css" />
     <Content Include="produto\codigo\_Geral\UserControls\cssErro.min.css" />
     <Content Include="produto\codigo\_Geral\UserControls\UserErro.ascx" />
     <Content Include="produto\codigo\_Geral\Util.dll" />
-    <Content Include="produto\codigo\_Pages\Ajuda.aspx" />
     <Content Include="produto\codigo\_Pages\Cadastro.aspx" />
     <Content Include="produto\codigo\_Pages\ComprarIngresso.aspx" />
     <Content Include="produto\codigo\_Pages\DadosPessoais.aspx" />
@@ -93,6 +98,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="produto\codigo\BaseSite.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="produto\codigo\_Geral\COOKIE.cs" />
     <Compile Include="produto\codigo\_Geral\CRIPTO.cs" />
     <Compile Include="produto\codigo\_Geral\UserControls\UserErro.ascx.cs">
@@ -109,12 +117,6 @@
     <Compile Include="produto\codigo\_Master\Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="produto\codigo\_Pages\Ajuda.aspx.cs">
-      <DependentUpon>Ajuda.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="produto\codigo\_Pages\Ajuda.aspx.designer.cs">
-      <DependentUpon>Ajuda.aspx</DependentUpon>
-    </Compile>
     <Compile Include="produto\codigo\_Pages\Cadastro.aspx.cs">
       <DependentUpon>Cadastro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -124,36 +126,42 @@
     </Compile>
     <Compile Include="produto\codigo\_Pages\ComprarIngresso.aspx.cs">
       <DependentUpon>ComprarIngresso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="produto\codigo\_Pages\ComprarIngresso.aspx.designer.cs">
       <DependentUpon>ComprarIngresso.aspx</DependentUpon>
     </Compile>
     <Compile Include="produto\codigo\_Pages\DadosPessoais.aspx.cs">
       <DependentUpon>DadosPessoais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="produto\codigo\_Pages\DadosPessoais.aspx.designer.cs">
       <DependentUpon>DadosPessoais.aspx</DependentUpon>
     </Compile>
     <Compile Include="produto\codigo\_Pages\Detalhes.aspx.cs">
       <DependentUpon>Detalhes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="produto\codigo\_Pages\Detalhes.aspx.designer.cs">
       <DependentUpon>Detalhes.aspx</DependentUpon>
     </Compile>
     <Compile Include="produto\codigo\_Pages\EditarEvento.aspx.cs">
       <DependentUpon>EditarEvento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="produto\codigo\_Pages\EditarEvento.aspx.designer.cs">
       <DependentUpon>EditarEvento.aspx</DependentUpon>
     </Compile>
     <Compile Include="produto\codigo\_Pages\EmitirRelatorio.aspx.cs">
       <DependentUpon>EmitirRelatorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="produto\codigo\_Pages\EmitirRelatorio.aspx.designer.cs">
       <DependentUpon>EmitirRelatorio.aspx</DependentUpon>
     </Compile>
     <Compile Include="produto\codigo\_Pages\Eventos.aspx.cs">
       <DependentUpon>Eventos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="produto\codigo\_Pages\Eventos.aspx.designer.cs">
       <DependentUpon>Eventos.aspx</DependentUpon>

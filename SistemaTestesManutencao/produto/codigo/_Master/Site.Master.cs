@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PersistLayer.DAL;
+using PersistLayer.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -17,7 +19,7 @@ namespace SistemaTestesManutencao.produto.codigo._Master
 
             if (!recCli.Equals(string.Empty))
             {
-                int cliID = Convert.ToInt32(Util.Criptografia.Decriptar(Geral.CRIPTO.CHAVE, Geral.CRIPTO.VETOR, recCli.ToString()));
+                int cliID = Convert.ToInt32(Util.Criptografia.Decriptar(SistemaTestesManutencao.produto.codigo._Geral.CRIPTO.CHAVE, SistemaTestesManutencao.produto.codigo._Geral.CRIPTO.VETOR, recCli.ToString()));
                 Usu = new UsuarioDAL().Obter(cliID);
             }
 

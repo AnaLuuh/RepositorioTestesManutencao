@@ -10,7 +10,7 @@
 namespace SistemaTestesManutencao.produto.codigo._Pages {
     
     
-    public partial class Ajuda {
+    public partial class Home {
         
         /// <summary>
         /// placeholder control.
@@ -22,39 +22,12 @@ namespace SistemaTestesManutencao.produto.codigo._Pages {
         protected global::System.Web.UI.WebControls.PlaceHolder placeholder;
         
         /// <summary>
-        /// rptLinks control.
+        /// rptEventos control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rptLinks;
-        
-        /// <summary>
-        /// sectionLoginPopUp control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl sectionLoginPopUp;
-        
-        /// <summary>
-        /// lnkFechar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkFechar;
-        
-        /// <summary>
-        /// lblDescricao control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDescricao;
+        protected global::System.Web.UI.WebControls.Repeater rptEventos;
     }
 }

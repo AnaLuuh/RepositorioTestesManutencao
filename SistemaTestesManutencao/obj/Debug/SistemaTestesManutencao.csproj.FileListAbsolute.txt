@@ -1,0 +1,11 @@
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\SistemaTestesManutencao\obj\Debug\SistemaTestesManutencao.csprojResolveAssemblyReference.cache
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\SistemaTestesManutencao\bin\SistemaTestesManutencao.dll.config
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\SistemaTestesManutencao\bin\SistemaTestesManutencao.dll
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\SistemaTestesManutencao\bin\SistemaTestesManutencao.pdb
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\SistemaTestesManutencao\bin\PersistLayer.dll
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\SistemaTestesManutencao\bin\Util.dll
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\SistemaTestesManutencao\bin\EntityFramework.dll
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\SistemaTestesManutencao\bin\PersistLayer.pdb
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\SistemaTestesManutencao\bin\EntityFramework.xml
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\SistemaTestesManutencao\obj\Debug\SistemaTestesManutencao.dll
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\SistemaTestesManutencao\obj\Debug\SistemaTestesManutencao.pdb

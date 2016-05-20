@@ -1,0 +1,10 @@
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\PersistLayer\bin\Debug\PersistLayer.dll.config
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\PersistLayer\bin\Debug\PersistLayer.dll
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\PersistLayer\bin\Debug\PersistLayer.pdb
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\PersistLayer\bin\Debug\EntityFramework.dll
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\PersistLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\PersistLayer\bin\Debug\EntityFramework.xml
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\PersistLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\PersistLayer\obj\Debug\PersistLayer.csprojResolveAssemblyReference.cache
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\PersistLayer\obj\Debug\PersistLayer.dll
+C:\Users\ANA\Documents\-2ProjetoTestesManutencao\SistemaTestesManutencao\PersistLayer\obj\Debug\PersistLayer.pdb

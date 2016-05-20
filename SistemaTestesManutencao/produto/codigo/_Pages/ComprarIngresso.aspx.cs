@@ -7,11 +7,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace SiteOlimpiadas.Site.Pages
+namespace SistemaTestesManutencao.produto.codigo._Pages
 {
     public partial class ComprarIngresso : BaseSite
     {
-        Site.Geral.UserControls.UserErro msgErro;
+        SistemaTestesManutencao.produto.codigo._Geral.UserControls.UserErro msgErro;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -25,7 +25,7 @@ namespace SiteOlimpiadas.Site.Pages
             }
             catch (Exception ex)
             {
-                msgErro = (Geral.UserControls.UserErro)LoadControl("../Geral/UserControls/UserErro.ascx");
+                msgErro = (SistemaTestesManutencao.produto.codigo._Geral.UserControls.UserErro)LoadControl("../_Geral/UserControls/UserErro.ascx");
                 msgErro.Text = ex.Message;
                 placeholder.Controls.Add(msgErro);
             }         
@@ -44,7 +44,7 @@ namespace SiteOlimpiadas.Site.Pages
             }
             catch (Exception ex)
             {
-                msgErro = (Geral.UserControls.UserErro)LoadControl("../Geral/UserControls/UserErro.ascx");
+                msgErro = (SistemaTestesManutencao.produto.codigo._Geral.UserControls.UserErro)LoadControl("../_Geral/UserControls/UserErro.ascx");
                 msgErro.Text = ex.Message;
                 placeholder.Controls.Add(msgErro);
             }       
@@ -66,7 +66,7 @@ namespace SiteOlimpiadas.Site.Pages
             }
             catch (Exception ex)
             {
-                msgErro = (Geral.UserControls.UserErro)LoadControl("../Geral/UserControls/UserErro.ascx");
+                msgErro = (SistemaTestesManutencao.produto.codigo._Geral.UserControls.UserErro)LoadControl("../_Geral/UserControls/UserErro.ascx");
                 msgErro.Text = ex.Message;
                 placeholder.Controls.Add(msgErro);
             }
@@ -83,7 +83,7 @@ namespace SiteOlimpiadas.Site.Pages
             }
             catch (Exception ex)
             {
-                msgErro = (Geral.UserControls.UserErro)LoadControl("../Geral/UserControls/UserErro.ascx");
+                msgErro = (SistemaTestesManutencao.produto.codigo._Geral.UserControls.UserErro)LoadControl("../_Geral/UserControls/UserErro.ascx");
                 msgErro.Text = ex.Message;
                 placeholder.Controls.Add(msgErro);
             }          
