@@ -62,6 +62,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="produto\codigo\scripts\jquery-1.11.1.min.js" />
+    <Content Include="produto\codigo\style\cssCadastro.min.css" />
+    <Content Include="produto\codigo\style\cssComprarIngresso.min.css" />
+    <Content Include="produto\codigo\style\cssDadosPessoais.min.css" />
+    <Content Include="produto\codigo\style\cssDetalhes.min.css" />
+    <Content Include="produto\codigo\style\cssEmitirRelatorio.min.css" />
+    <Content Include="produto\codigo\style\cssEventos.min.css" />
+    <Content Include="produto\codigo\style\cssHome.min.css" />
+    <Content Include="produto\codigo\style\cssLogin.min.css" />
+    <Content Include="produto\codigo\style\cssMaster.min.css" />
     <Content Include="produto\codigo\_Geral\UserControls\cssErro.css.map" />
     <Content Include="produto\codigo\_Geral\UserControls\cssErro.scss" />
     <Content Include="produto\codigo\_Master\Site.Master" />
